@@ -1,0 +1,31 @@
+.banners {
+    overflow: hidden;
+}
+
+.in-banners {
+    margin: 0 -15px;
+}
+
+.banners__item {
+    width: 33.3%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    float: left;
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        margin: 2px 0;
+    }
+    img {
+        border-radius: 5px;
+        max-width: 100%;
+    }
+}
+
+.banners__item:hover {
+    text-decoration: underline;
+}

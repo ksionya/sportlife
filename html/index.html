@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спортлайф</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+
+<body>
+    <header>
+        @@include('./sections/header.html')
+    </header>
+    <div class="content">
+        <div class="wrapper">
+            <div class="menu-first-child mobile-menu">
+                Каталог<span class="burger"></span>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li class="menu-first-child">Каталог<span class="burger"></span></li>
+                    <li class="top-menu"><a href="#">Термобелье <img src="images/svg/arrow-menu.svg" alt=""></a>
+                        <div class="submenu">
+                            <div class="submenu-btn">
+                                <button>Все</button>
+                                <button>Женщинам</button>
+                                <button>Мужчинам</button>
+                                <button>Детям</button>
+                            </div>
+                            <div class="in-submenu">
+                                <div class="submenu-column">
+                                    <ul>
+                                        <li><a href="#">Повседневное термобелье</a></li>
+                                        <li><a href="#">Комплекты термобелья</a></li>
+                                        <li><a href="#">Спортивное термобелье</a></li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-column">
+                                    <ul>
+                                        <li><a href="#">Шерстяное термобелье</a></li>
+                                        <li><a href="#">Ветрозащитное термобелье</a></li>
+                                        <li><a href="#">Летнее термобелье</a></li>
+                                        <li><a href="#">Термокальсоны</a></li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-column">
+                                    <ul>
+                                        <li><a href="#">Флисовое термобелье</a></li>
+                                        <li><a href="#">Термоноски</a></li>
+                                        <li><a href="#">Термоноски</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top-menu"><a href="#">Одежда <img src="images/svg/arrow-menu.svg" alt=""></a>
+
+                    </li>
+                    <li class="top-menu"><a href="#">Мужчинам <img src="images/svg/arrow-menu.svg" alt=""></a>
+                        <div class="submenu">
+                            <div class="in-submenu">
+                                <div class="submenu-column">
+                                    <ul>
+                                        <h4>Одежда</h4>
+                                        <li><a href="#">Пуховики</a></li>
+                                        <li><a href="#">Куртки</a></li>
+                                        <li><a href="#">Ветровки</a></li>
+                                        <li><a href="#">Жилеты и безрукавки</a></li>
+                                        <li><a href="#">Спортивные костюмы</a></li>
+                                        <li><a href="#">Комбинезоны</a></li>
+                                        <li><a href="#">Толстовки</a></li>
+                                        <li><a href="#">Джемперы</a></li>
+                                        <li><a href="#">Свитеры</a></li>
+                                        <li><a href="#">Футболки</a></li>
+                                        <li><a href="#">Майки</a></li>
+                                        <li><a href="#">Штаны и брюки</a></li>
+                                        <li><a href="#">Тайтсы</a></li>
+                                        <li><a href="#">Капри</a></li>
+                                        <li><a href="#">Шорты</a></li>
+                                        <li><a href="#">Кепки и бейсболки</a></li>
+                                        <li><a href="#">Шапки и повязки</a></li>
+                                        <li><a href="#">Перчатки и варежки</a></li>
+                                        <li><a href="#">Носки и гольфы</a></li>
+                                        <li><a href="#">Трусы</a></li>
+                                        <li><a href="#">Компрессионная одежда</a></li>
+                                        <li><a href="#">Спортивные рубашки</a></li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-column">
+                                    <ul>
+                                        <h4>Термобелье</h4>
+                                        <li><a href="#">Повседневное</a></li>
+                                        <li><a href="#">Комплекты</a></li>
+                                        <li><a href="#">Спортивное</a></li>
+                                        <li><a href="#">Шерстяное</a></li>
+                                        <li><a href="#">Ветрозащитное</a></li>
+                                        <li><a href="#">Горнолыжное / сноуборд</a></li>
+                                        <li><a href="#">Для охоты и рыбалки</a></li>
+                                        <li><a href="#">Летнее</a></li>
+                                        <li><a href="#">Флисовое</a></li>
+                                        <li><a href="#">Термоноски</a></li>
+                                    </ul>
+                                    <ul>
+                                        <h4>Обувь</h4>
+                                        <li><a href="#">Беговая</a></li>
+                                        <li><a href="#">Кроссовки</a></li>
+                                        <li><a href="#">Обувь для фитнеса</a></li>
+                                        <li><a href="#">Спортивные ботинки</a></li>
+                                        <li><a href="#">Треккинговая и туристическая</a></li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-column">
+                                    <ul>
+                                        <h4>По видам спорта</h4>
+                                        <li><a href="#">Лыжи</a></li>
+                                        <li><a href="#">Бег</a></li>
+                                        <li><a href="#">Велоспорт</a></li>
+                                        <li><a href="#">Лыжи / Сноуборд</a></li>
+                                        <li><a href="#">Туризм</a></li>
+                                        <li><a href="#">Фитнес</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top-menu"><a href="#">Женщинам <img src="/images/svg/arrow-menu.svg" alt=""></a></li>
+                    <li class="top-menu"><a href="#">Обувь <img src="/images/svg/arrow-menu.svg" alt=""></a></li>
+                    <li class="top-menu"><a href="#">По видам спорта <img src="/images/svg/arrow-menu.svg" alt=""></a></li>
+                    <li class="top-menu"><a href="#">Аксессуары <img src="/images/svg/arrow-menu.svg" alt=""></a></li>
+                    <li class="top-menu"><a href="#">Бренды <img src="/images/svg/arrow-menu.svg" alt=""></a>
+                        <div class="submenu">
+                            <div class="submenu-btn">
+                                <button>Все</button>
+                                <button>Женщинам</button>
+                                <button>Мужчинам</button>
+                                <button>Детям</button>
+                            </div>
+                            <div class="in-submenu">
+                                <div class="submenu-column">
+                                    <ul>
+                                        <h4>Sportful</h4>
+                                        <li><a href="#">Перчатки</a></li>
+                                        <li><a href="#">Шапки</a></li>
+                                        <li><a href="#">Носки</a></li>
+                                        <li><a href="#">Штаны и брюки</a></li>
+                                        <li><a href="#">Рубашки и футболки</a></li>
+                                        <li><a href="#">Тайтсы</a></li>
+                                        <li><a href="#">Куртки</a></li>
+                                        <li><a href="#">Термобелье</a></li>
+                                        <li><a href="#">Жилеты</a></li>
+                                    </ul>
+                                    <ul>
+                                        <h4>Alpine pro</h4>
+                                        <li><a href="#">Перчатки</a></li>
+                                        <li><a href="#">Шапки</a></li>
+                                        <li><a href="#">Носки</a></li>
+                                        <li><a href="#">Штаны и брюки</a></li>
+                                        <li><a href="#">Рубашки и футболки</a></li>
+                                        <li><a href="#">Тайтсы</a></li>
+                                        <li><a href="#">Куртки</a></li>
+                                        <li><a href="#">Термобелье</a></li>
+                                        <li><a href="#">Жилеты</a></li>
+                                    </ul>
+                                </div>
+                                <div class="submenu-column">
+                                    <ul>
+                                        <h4>Craft</h4>
+                                        <li><a href="#">Термобелье</a></li>
+                                        <li><a href="#">Нижнее белье</a></li>
+                                        <li><a href="#">Термоноски</a></li>
+                                        <li><a href="#">Майки</a></li>
+                                        <li><a href="#">Футболки</a></li>
+                                        <li><a href="#">Шорты</a></li>
+                                        <li><a href="#">Тайтсы</a></li>
+                                        <li><a href="#">Толстовки</a></li>
+                                        <li><a href="#">Штаны и брюки</a></li>
+                                        <li><a href="#">Спортивные костюмы</a></li>
+                                        <li><a href="#">Жилеты</a></li>
+                                        <li><a href="#">Куртки</a></li>
+                                        <li><a href="#">Пуховики</a></li>
+                                        <li><a href="#">Кепки и бейсболки</a></li>
+                                        <li><a href="#">Спортивные повзяки</a></li>
+                                        <li><a href="#">Шапки и баффы</a></li>
+                                        <li><a href="#">Перчатки и рукавицы</a></li>
+
+                                    </ul>
+                                    <ul>
+                                        <h4>Kinetixx</h4>
+                                    </ul>
+                                </div>
+                                <div class="submenu-column">
+                                    <ul>
+                                        <h4>Kilpi</h4>
+                                        <li><a href="#">Термобелье</a></li>
+                                        <li><a href="#">Нижнее белье</a></li>
+                                        <li><a href="#">Термоноски</a></li>
+                                        <li><a href="#">Майки</a></li>
+                                        <li><a href="#">Футболки</a></li>
+                                        <li><a href="#">Шорты</a></li>
+                                        <li><a href="#">Тайтсы</a></li>
+                                        <li><a href="#">Толстовки</a></li>
+                                        <li><a href="#">Штаны и брюки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <h4>Alpine pro</h4>
+                                        <li><a href="#">Перчатки</a></li>
+                                        <li><a href="#">Шапки</a></li>
+                                        <li><a href="#">Носки</a></li>
+                                        <li><a href="#">Штаны и брюки</a></li>
+                                        <li><a href="#">Рубашки и футболки</a></li>
+                                        <li><a href="#">Тайтсы</a></li>
+                                        <li><a href="#">Куртки</a></li>
+                                        <li><a href="#">Термобелье</a></li>
+                                        <li><a href="#">Жилеты</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top-menu"><a href="#">Детям <img src="/images/svg/arrow-menu.svg" alt=""></a></li>
+                </ul>
+            </nav>
+            <div class="discount">
+                <h3>Товары со скидкой</h3>
+                <div class="discount-item">
+                    @@include('./sections/in-discount.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>4 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                </div>
+                <div class="discount-item">
+                    @@include('./sections/in-discount.html', {"img": "tab4.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                </div>
+                <div class="discount-item">
+                    @@include('./sections/in-discount.html', {"img": "tab5.png", "title": "Куртка Sports Padded", "price": "<b>4 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="carousel">
+                    <div class="slider-for">
+                        <div class="carousel__item">
+                            <img src="/images/carousel.png" alt="">
+                            <span>
+                            <i class="big">Kilpi</i>
+                            <p>New collection Kilpi 2019/20</p>
+                        </span>
+                        </div>
+                        <div class="carousel__item">
+                            <img src="/images/carousel.png" alt="">
+                            <span>
+                            <i class="big">Kilpi</i>
+                            <p>New collection Kilpi 2020/21</p>
+                        </span>
+                        </div>
+                        <div class="carousel__item">
+                            <img src="/images/carousel.png" alt="">
+                            <span>
+                            <i class="big">Lor</i>
+                            <p>New collection Kilpi 2019/20</p>
+                        </span>
+                        </div>
+                    </div>
+                    <div class="slider-nav">
+                        <div class="carousel__item-small">
+                            <img src="/images/carousel.png" alt="">
+                        </div>
+                        <div class="carousel__item-small">
+                            <img src="/images/carousel.png" alt="">
+                        </div>
+                        <div class="carousel__item-small">
+                            <img src="/images/carousel.png" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="banners">
+                    <div class="in-banners">
+                        <div class="banners__item">
+                            @@include('./sections/in-banners.html', {"img": "top-1.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX"})
+                        </div>
+                        <div class="banners__item">
+                            @@include('./sections/in-banners.html', {"img": "top-2.png", "title": "Куртка Sports Padded"})
+                        </div>
+                        <div class="banners__item">
+                            @@include('./sections/in-banners.html', {"img": "top-3.png", "title": "Куртка Sports Padded"})
+                        </div>
+                    </div>
+                </div>
+                <div class="recommend">
+                    <h3>Рекомендуем</h3>
+                    <div class="square"></div>
+                    <span class="prev">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="black" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </span>
+                    <span class="next">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="black" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </span>
+                    <div class="tab__menu">
+                        <a class="tab__menu tab-btn" href="#tab_01" data-tab="#tab_01">Перчатки и варежки</a>
+                        <a class="tab__menu tab-btn" href="#tab_02" data-tab="#tab_02">Туристическая одежда</a>
+                        <a class="tab__menu tab-btn" href="#tab_03" data-tab="#tab_03">Шерстяное термобелье</a>
+                        <a class="tab__menu tab-btn" href="#tab_04" data-tab="#tab_04">Спортивное термобелье</a>
+                    </div>
+                    <div class="tab__body">
+                        <div class="tab__content active" id="tab_01">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>4 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                                <span class="label-sale">Sale</span>
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>4 440</b> руб.", "old_price": ""})
+                                <span class="label-new">New</span>
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab4.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab5.png", "title": "Куртка Sports Padded", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_02">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab4.png", "title": "Брюки Alpine Pro Anika", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab5.png", "title": "Куртка Sports Padded", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_03">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>6 000</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>6 000</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>6 000</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab4.png", "title": "Брюки Alpine Pro Anika", "price": "<b>6 000</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab5.png", "title": "Куртка Sports Padded", "price": "<b>6 000</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_04">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>9 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>9 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>9 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab4.png", "title": "Брюки Alpine Pro Anika", "price": "<b>9 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product.html', {"img": "tab5.png", "title": "Куртка Sports Padded", "price": "<b>9 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="block-yellow">
+                    <h1>Интернет магазин спортивной одежды Спорт Лайф
+                    </h1>
+                    <p>Предлагает вам широчайший ассортимент спортивной одежды. Для отдыха, для бега, для велосипеда, для повседневного использования, для езды на лыжах, как на гоночных,так и на горных. Предоставляем вашему внимаю такие бренды, как: "Kilpi",
+                        "KinetiXx", "SILVINI", "Alpine Pro" и "CRAFT."</p>
+                </div>
+                <div class="new-item">
+                    <h3>Новинки</h3>
+                    <div class="in">
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": ""})
+                        </div>
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            <span class="label-new">New</span>
+                        </div>
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab5.png", "title": "Куртка Sports Padded", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            <span class="label-new">New</span>
+                        </div>
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": ""})
+                        </div>
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": "<b>7 440</b> руб."})
+                            <span class="label-sale">Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-text">
+                    <h2>Со спортом по жизни</h2>
+                    <p>Развлечение, игра – именно так переводится старофранцузское слово «de sport», от которого и происходит будоражащее миллионы умов слово «спорт». В широком понимании, спорт – это неотъемлемая часть физической культуры, где ключевым моментом
+                        является развитие физических и интеллектуальных способностей человека. В интернете существует свое определение спорта – соответствующая определенным правилам деятельность людей, которая направлена на сопоставление их физических
+                        или интеллектуальных способностей. Но, что понимают многие, спорт – это больше чем игра или развлечение – это образ жизни, образ мышления и образ взаимодействия с окружающим миром.</p>
+                    <h2>Для профессионалов</h2>
+                    <p>Компания Спорт-Лайф приветствует спорт в современной жизни, как профессиональный, так и любительский. Продавая одежду для спорта и одежду в спортивном стиле, мы преследуем цель помочь каждому полюбить спорт и достичь в нем тех результатов,
+                        о которых он мечтал.</p>
+                </div>
+                <div class="recommend recommend-big">
+                    <h3>Рекомендуем</h3>
+                    <div class="square"></div>
+                    <span class="prev">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="black" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </span>
+                    <span class="next">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="black" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </span>
+                    <div class="tab__menu">
+                        <a class="tab__menu tab-btn" href="#tab_1" data-tab="#tab_1">Одежда</a>
+                        <a class="tab__menu tab-btn" href="#tab_2" data-tab="#tab_2">Женщинам</a>
+                        <a class="tab__menu tab-btn" href="#tab_3" data-tab="#tab_3">Мужчинам</a>
+                        <a class="tab__menu tab-btn" href="#tab_4" data-tab="#tab_4">Термобелье</a>
+                        <a class="tab__menu tab-btn" href="#tab_5" data-tab="#tab_5">Детям</a>
+                        <a class="tab__menu tab-btn" href="#tab_6" data-tab="#tab_6">Аксессуары</a>
+                        <a class="tab__menu tab-btn" href="#tab_7" data-tab="#tab_7">Ветрозащитное термобелье</a>
+                    </div>
+                    <div class="tab__body">
+                        <div class="tab__content active" id="tab_1">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab5.png", "title": "Куртка Sports Padded ", "price": "<b>1 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                                <span class="label-new">New</span>
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>1 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>1 440</b> руб.", "old_price": ""})
+                                <span class="label-new">New</span>
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX ", "price": "<b>1 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>1 440</b> руб.", "old_price": "<b>4 440</b> руб."})
+                                <span class="label-sale">Sale</span>
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_2">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab5.png", "title": "Куртка Sports Padded ", "price": "<b>2 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>2 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>2 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX ", "price": "<b>2 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>2 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_3">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab5.png", "title": "Куртка Sports Padded ", "price": "<b>3 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>3 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>3 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX ", "price": "<b>3 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>3 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_4">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab5.png", "title": "Куртка Sports Padded ", "price": "<b>4 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX ", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_5">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab5.png", "title": "Куртка Sports Padded ", "price": "<b>5 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX ", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>5 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_6">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab5.png", "title": "Куртка Sports Padded ", "price": "<b>6 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>6 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>6 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX ", "price": "<b>6 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>6 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                        <div class="tab__content" id="tab_7">
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab5.png", "title": "Куртка Sports Padded ", "price": "<b>7 440</b> руб.", "old_price": "<b>6 090</b> руб."})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX", "price": "<b>7 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>7 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab2.png", "title": "Горнолыжные перчатки Kinetixx Brody GTX ", "price": "<b>7 440</b> руб.", "old_price": ""})
+                            </div>
+                            <div class="tabs-item">
+                                @@include('./sections/in-product-2.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>7 440</b> руб.", "old_price": ""})
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular">
+                    <h3>Популярные товары</h3>
+                    <div class="in">
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": ""})
+                        </div>
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab3.png", "title": "Куртка Sports Padded", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            <span class="label-new">New</span>
+                        </div>
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab5.png", "title": "Куртка Sports Padded", "price": "<b>4 440</b> руб.", "old_price": ""})
+                            <span class="label-new">New</span>
+                        </div>
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": "<b>6 440</b> руб."})
+                            <span class="label-sale">Sale</span>
+                        </div>
+                        <div class="tabs-item product-card">
+                            @@include('./sections/in-product.html', {"img": "tab1.png", "title": "Брюки Alpine Pro Anika", "price": "<b>4 440</b> руб.", "old_price": ""})
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @@include('./sections/in-logo.html')
+    <footer>
+        @@include('./sections/footer.html')
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
